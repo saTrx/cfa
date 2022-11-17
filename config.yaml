@@ -1,6 +1,6 @@
 #
 #-------------------------------------------------------------#
-#  @sa_trx
+# sa_trx
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -10,62 +10,6 @@ mode: Global
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"TRX-393_1","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-392_1","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-359_1","http-opts":{"path":["/"]},"server":"49.12.239.252","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-25_1","ws-opts":{"path":"/"},"server":"70.34.252.40","port":"8081","uuid":"fcf0f9df-ce05-4e14-debe-4de842e753e5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-506_1","ws-opts":{"path":"/graphql"},"server":"78.46.213.201","port":"80","uuid":"d966c9da-9092-4c95-b7a9-a7e43aa4f93a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-37_1","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-376_1","http-opts":{"path":["/"]},"server":"72.5.32.63","port":"54915","uuid":"8030cb42-4b0e-46cb-d653-66bf65345c7f","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-396_1","http-opts":{"path":["/"]},"server":"8.210.203.189","port":"37309","uuid":"74cdcc28-a0bc-421f-bd15-c6a6e401b523","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-405_1","http-opts":{"path":["/"]},"server":"47.242.61.125","port":"51784","uuid":"431c4c01-b596-4d12-a9e6-4f7f21fe82ba","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-395_1","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-175_1","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-388_1","http-opts":{"path":["/"]},"server":"8.218.63.184","port":"20113","uuid":"cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-46_1","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-386_1","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-414_1","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-289_1","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/","headers":{"host":"51.81.220.195"}},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-403_1","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/"},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-48_1","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-418_1","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-427_1","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-412_1","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-31_1","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-360_1","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-425_1","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-417_1","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-398_1","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-420_1","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":"443","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-219_1","ws-opts":{"path":"/fastssh/hsvshsg76tv/635a69172696d/","headers":{"host":"zoom.us"}},"server":"nl.v2-ray.com","port":"80","uuid":"6c5ee5f6-866a-4600-a154-63c853a13085","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-424_1","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-61_1","ws-opts":{"path":"/"},"server":"2.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-411_1","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":"0","cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-378_1","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"128.14.162.48","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-406_1","ws-opts":{"path":"/"},"server":"52.40.115.237","port":"8081","uuid":"8204ce03-cee9-4328-cc6e-20f303d0aea6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-58_1","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-512_1","ws-opts":{"path":"/"},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-40_1","ws-opts":{"path":"/"},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-94_1","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-39_1","ws-opts":{"path":"/"},"server":"4.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-54_1","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-80_1","ws-opts":{"path":"/"},"server":"38.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-17_1","ws-opts":{"path":"/"},"server":"44.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-79_1","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-71_1","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-72_1","ws-opts":{"path":"/"},"server":"37.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-82_1","ws-opts":{"path":"/","headers":{"host":"29.72img.xyz"}},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-511_1","ws-opts":{"path":"/"},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-16_1","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-62_1","ws-opts":{"path":"/","headers":{"host":"43.72img.xyz"}},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-28_1","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-366_1","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-363_1","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-384_1","ws-opts":{"path":"/"},"server":"unvari.thatfreeservicewhicheveryoneuse.uk","port":"2095","uuid":"e346878b-0509-44fb-bd6c-680dbb6a8fe8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-404_1","ws-opts":{"path":"/aries","headers":{"host":"a.189.cn"}},"server":"sg.gcore.arc.pics","port":"2086","uuid":"8c067a46-155c-402a-a762-f42b40179438","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-45_1","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/","headers":{"host":"15.235.147.186"}},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-70_1","ws-opts":{"path":"/"},"server":"46.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-375_1","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":"443","uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"_1","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"_2","server":"217.197.161.136","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"SERVER+1_1","server":"217.197.161.138","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
@@ -73,25 +17,10 @@ proxies:
   - {"type":"ss","name":"SERVER+1_3","server":"217.197.161.136","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"SERVER+1_4","server":"217.197.161.136","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"@sa_trx+vip+16_1","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vless","name":"@sa_trx+vip+9_1","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"vless","name":"@sa_trx+vip+8_1","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"ss","name":"@sa_trx+vip7_1","server":"38.91.102.74","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"@sa_trx+vip+6_1","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@sa_trx+vip7","server":"38.91.102.74","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"@sa_trx+vip+6","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"@sa_trx+vip+5","server":"217.197.161.136","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vless","name":"@sa_trx+vip+19","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
   - {"type":"ss","name":"@sa_trx+vip+16_2","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vless","name":"@sa_trx+vip+9_2","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"vless","name":"@sa_trx+vip+8_2","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"ss","name":"@sa_trx+vip7_2","server":"38.91.102.74","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"@sa_trx+vip+6_2","server":"217.197.161.138","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vless","name":"@sa_trx+20","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"vless","name":"@sa_trx+19","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"vless","name":"@sa_trx+17","server":"167.99.218.104","port":33526,"uuid":"702846bb-9f85-4e2f-9612-383534fa0c33","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"type":"vless","name":"@sa_trx+14","server":"95.211.249.49","port":27912,"uuid":"30b72245-45a0-4c78-c6d7-ef9ba8c087bc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fhfh5YH566yu"}}
-  - {"type":"vless","name":"@sa_trx+13","server":"95.211.249.49","port":27912,"uuid":"30b72245-45a0-4c78-c6d7-ef9ba8c087bc","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/fhfh5YH566yu"}}
-  - {"type":"ss","name":"@sa_trx+8","server":"38.91.102.74","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"vless","name":"@sa_trx+5","server":"104.21.78.149","port":8880,"uuid":"a5aef628-715c-4f3c-c3c6-dd21a4850b7a","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"king1.mmadserr.ml","ws-opts":{"path":"/drtgdrg5646fd","headers":{"host":"king1.mmadserr.ml"}}}
-  - {"type":"vless","name":"@sa_trx+1","server":"95.211.58.55","port":59525,"uuid":"a3ed37e3-87ea-469a-cd1e-b75c414fea85","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","ws-opts":{"path":"/gfhG5fg5dr64"}}
   - {"type":"vmess","name":"کانال:V2rayNG_Outline@_1","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"کانال:V2rayNG_Outline@_2","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"V2RAY_X_SERVER_#232","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
@@ -119,7 +48,7 @@ proxies:
   - {"type":"vmess","name":"TRX-33_1","ws-opts":{"path":"/"},"server":"164.92.248.113","port":"8081","uuid":"974b5505-014f-41b9-df27-d6aae3d340f6","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-35_1","ws-opts":{"path":"/"},"server":"164.92.246.249","port":"8081","uuid":"b029f444-416c-4fb4-fd43-7c1cba681632","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-36_1","ws-opts":{"path":"/"},"server":"13.37.80.71","port":"8081","uuid":"76802b0a-0f8c-4de0-9ff0-9ac5670e9a00","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-37_2","ws-opts":{"path":"/"},"server":"164.92.193.65","port":"8081","uuid":"0f9c108d-b0d6-4795-a331-0e27d05fb9df","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-37_1","ws-opts":{"path":"/"},"server":"164.92.193.65","port":"8081","uuid":"0f9c108d-b0d6-4795-a331-0e27d05fb9df","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-1","ws-opts":{"path":"/"},"server":"172.105.43.90","port":"8081","uuid":"c27f3055-56ae-4941-bc18-8594bd0cd8f3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-2","ws-opts":{"path":"/"},"server":"172.105.60.95","port":"8081","uuid":"126f0f46-f8ff-45fb-951a-e463e79966c1","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-3","ws-opts":{"path":"/"},"server":"172.105.49.23","port":"8081","uuid":"9302a865-55de-4c8b-a24f-9b5195c6bdd2","alterId":"0","cipher":"auto","network":"ws"}
@@ -135,8 +64,8 @@ proxies:
   - {"type":"vmess","name":"TRX-13","ws-opts":{"path":"/kwaqvws","headers":{"host":"goodfamily3.site"}},"server":"goodfamily3.site","port":"443","uuid":"efc067bd-f3ba-ebe7-537f-43a313a8d027","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-14","ws-opts":{"path":"/vmess"},"server":"137.184.164.233","port":"80","uuid":"5cee90e3-b915-4f1e-bb8d-efadad0c6feb","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-15","ws-opts":{"path":"/"},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-16_2","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-17_2","ws-opts":{"path":"/"},"server":"44.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-16","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-17","ws-opts":{"path":"/"},"server":"44.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-18","ws-opts":{"path":"/"},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-19","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-20_2","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.99136853.xyz"}},"server":"119.36.161.40","port":"443","uuid":"946ba5df-5771-4873-a3cb-892378526147","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -144,44 +73,44 @@ proxies:
   - {"type":"vmess","name":"TRX-22","ws-opts":{"path":"/"},"server":"70.34.244.228","port":"8081","uuid":"64058693-b7f2-4a51-9c45-0d6a955381c7","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-23_2","ws-opts":{"path":"/"},"server":"70.34.247.139","port":"8081","uuid":"4351659f-59be-4e8c-e4f8-7c0a57b42bdf","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-24","ws-opts":{"path":"/"},"server":"70.34.251.185","port":"8081","uuid":"547e42ac-f251-4317-ced4-36bd6cb87c26","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-25_2","ws-opts":{"path":"/"},"server":"70.34.252.40","port":"8081","uuid":"fcf0f9df-ce05-4e14-debe-4de842e753e5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-25","ws-opts":{"path":"/"},"server":"70.34.252.40","port":"8081","uuid":"fcf0f9df-ce05-4e14-debe-4de842e753e5","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-26_2","ws-opts":{"path":"/"},"server":"70.34.253.151","port":"8081","uuid":"9ceeae1f-8764-4a00-b5b4-0a6f9d412cb5","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-27_2","ws-opts":{"path":"/"},"server":"70.34.253.22","port":"8081","uuid":"c93c8965-e659-4253-d510-af88c8ab18f5","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-28_2","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-28","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-29","ws-opts":{"path":"/"},"server":"167.71.196.133","port":"8081","uuid":"3588db1e-f6a2-4037-9383-ff22329279e0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-30_2","ws-opts":{"path":"/"},"server":"167.71.213.250","port":"8081","uuid":"e62924a6-91aa-462f-a49c-04952c23df0a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-31_2","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-31","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-32_2","ws-opts":{"path":"/"},"server":"165.232.182.169","port":"8081","uuid":"0ddc0bec-f021-4794-8a1c-7c2035e1001b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-33_2","ws-opts":{"path":"/"},"server":"165.232.181.149","port":"8081","uuid":"0d462296-03e2-4c80-c8ee-8405213ff726","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-34","ws-opts":{"path":"/"},"server":"165.232.185.89","port":"8081","uuid":"f038f730-da06-4247-b0b0-8ff30a8123b9","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-35_2","ws-opts":{"path":"/"},"server":"165.232.178.238","port":"8081","uuid":"664b7630-3ca3-4463-e826-55bad6c53e97","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-36_2","ws-opts":{"path":"/"},"server":"5.161.148.254","port":"8081","uuid":"2d3b80ec-a539-4b83-cb39-5660011641a6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-37_3","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-37_2","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-38","ws-opts":{"path":"/"},"server":"135.181.41.63","port":"31908","uuid":"3f8a796e-d433-4c2c-e88a-9655cd380e5e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-39_2","ws-opts":{"path":"/"},"server":"4.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-40_2","ws-opts":{"path":"/"},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-39","ws-opts":{"path":"/"},"server":"4.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-40","ws-opts":{"path":"/"},"server":"55.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-41","ws-opts":{"path":"/"},"server":"45.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-42","ws-opts":{"path":"/zh-cn","headers":{"host":"tw1.sanfen001.pics"}},"server":"tw1.sanfen001.pics","port":"443","uuid":"4456b502-fe61-4be7-a969-aa37d924dbd2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-43","ws-opts":{"path":"/zh-cn","headers":{"host":"sg1.sanfen001.pics"}},"server":"sg1.sanfen001.pics","port":"443","uuid":"4456b502-fe61-4be7-a969-aa37d924dbd2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-44","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.asuka.buzz"}},"server":"104.21.41.120","port":"80","uuid":"51fa265a-31f5-44f2-b354-5b2e351e2cdf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-45_2","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/","headers":{"host":"15.235.147.186"}},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-46_2","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-45","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/","headers":{"host":"15.235.147.186"}},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-46","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-47","ws-opts":{"path":"/"},"server":"165.232.185.89","port":"8081","uuid":"f038f730-da06-4247-b0b0-8ff30a8123b9","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-48_2","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-48","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-49","ws-opts":{"path":"/"},"server":"167.71.196.133","port":"8081","uuid":"3588db1e-f6a2-4037-9383-ff22329279e0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-50","ws-opts":{"path":"/"},"server":"165.232.181.149","port":"8081","uuid":"0d462296-03e2-4c80-c8ee-8405213ff726","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-51","ws-opts":{"path":"/"},"server":"165.232.182.169","port":"8081","uuid":"0ddc0bec-f021-4794-8a1c-7c2035e1001b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-52","ws-opts":{"path":"/"},"server":"165.232.178.238","port":"8081","uuid":"664b7630-3ca3-4463-e826-55bad6c53e97","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-53","ws-opts":{"path":"/"},"server":"5.161.148.254","port":"8081","uuid":"2d3b80ec-a539-4b83-cb39-5660011641a6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-54_2","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-54","ws-opts":{"path":"/"},"server":"13.234.123.31","port":"13043","uuid":"de365d16-9e0a-483a-8d1e-7b57fb30bc65","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-55","ws-opts":{"path":"/"},"server":"135.181.41.63","port":"31908","uuid":"3f8a796e-d433-4c2c-e88a-9655cd380e5e","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-56","ws-opts":{"path":"/panelmyadmin","headers":{"host":"s379.okggnode.top"}},"server":"173.205.94.4","port":"443","uuid":"8789e118-d508-33b1-b619-df4a2cf3b933","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-57","ws-opts":{"path":"/"},"server":"33.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-58_2","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-58","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-59","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"5.75.135.60","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-60","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"167.235.198.30","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-61_2","ws-opts":{"path":"/"},"server":"2.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-62_2","ws-opts":{"path":"/","headers":{"host":"43.72img.xyz"}},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-61","ws-opts":{"path":"/"},"server":"2.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-62","ws-opts":{"path":"/","headers":{"host":"43.72img.xyz"}},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-63","ws-opts":{"path":"/","headers":{"host":"10.72img.xyz"}},"server":"10.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-64","ws-opts":{"path":"/","headers":{"host":"30.72img.xyz"}},"server":"30.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-65","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.99136853.xyz"}},"server":"119.36.161.40","port":"443","uuid":"946ba5df-5771-4873-a3cb-892378526147","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -189,19 +118,19 @@ proxies:
   - {"type":"vmess","name":"TRX-67","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"167.235.226.86","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-68","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"167.235.204.122","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-69","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.69961573.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-70_2","ws-opts":{"path":"/"},"server":"46.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-71_2","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-72_2","ws-opts":{"path":"/"},"server":"37.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-70","ws-opts":{"path":"/"},"server":"46.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-71","ws-opts":{"path":"/"},"server":"34.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-72","ws-opts":{"path":"/"},"server":"37.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-73","ws-opts":{"path":"/"},"server":"king.bypassfil.ml","port":"80","uuid":"c9996096-a83d-4957-8bd9-63371fa4c8c7","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-74","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"152.228.191.232","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-75","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"135.181.157.86","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-76","ws-opts":{"path":"/telegram-id-@privatevpns"},"server":"65.108.252.6","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-77","ws-opts":{"path":"/zjzovws","headers":{"host":"niceholiday1.online"}},"server":"niceholiday1.online","port":"443","uuid":"8996ac12-17b4-442d-ae99-f4914b74319f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-78","ws-opts":{"path":"/telegram-id-@privatevpns","headers":{"host":"land.internetazad.pro"}},"server":"digitalocean.com","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-79_2","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-80_2","ws-opts":{"path":"/"},"server":"38.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-79","ws-opts":{"path":"/"},"server":"53.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-80","ws-opts":{"path":"/"},"server":"38.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-81","ws-opts":{"path":"/kwaqvws","headers":{"host":"goodfamily3.site"}},"server":"goodfamily3.site","port":"443","uuid":"efc067bd-f3ba-ebe7-537f-43a313a8d027","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-82_2","ws-opts":{"path":"/","headers":{"host":"29.72img.xyz"}},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-82","ws-opts":{"path":"/","headers":{"host":"29.72img.xyz"}},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-83","ws-opts":{"path":"/media","headers":{"host":"server1.internetgateway.website"}},"server":"server1.internetgateway.website","port":"443","uuid":"33f27e84-cca3-423c-b4bc-1b189a6639b7","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-84","ws-opts":{"path":"/"},"server":"165.232.185.89","port":"8081","uuid":"f038f730-da06-4247-b0b0-8ff30a8123b9","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-85","ws-opts":{"path":"/"},"server":"5.161.148.254","port":"8081","uuid":"2d3b80ec-a539-4b83-cb39-5660011641a6","alterId":"0","cipher":"auto","network":"ws"}
@@ -213,7 +142,7 @@ proxies:
   - {"type":"vmess","name":"TRX-91","ws-opts":{"path":"/"},"server":"45.79.125.12","port":"8081","uuid":"4447cb40-a1f9-4aad-bc09-ff9e33c3dcbf","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-92","ws-opts":{"path":"/"},"server":"172.105.58.247","port":"8081","uuid":"b47fd2e4-066d-4117-9072-b74b21f0ee1b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-93","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-94_2","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-94","ws-opts":{"path":"/"},"server":"167.71.213.247","port":"8081","uuid":"b2ecf06e-7976-473a-8ec4-b2d4212ca607","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-95","ws-opts":{"path":"/"},"server":"172.105.43.194","port":"8081","uuid":"1bb91cf5-a175-4959-9ce4-41d040efd0bf","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-96","ws-opts":{"path":"/"},"server":"172.105.56.208","port":"8081","uuid":"8bcef052-414d-4198-ee9f-6435682079c2","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-97","ws-opts":{"path":"/"},"server":"172.105.63.159","port":"8081","uuid":"626db812-5d74-4966-bf90-c48e1575e95f","alterId":"0","cipher":"auto","network":"ws"}
@@ -294,7 +223,7 @@ proxies:
   - {"type":"vmess","name":"TRX-172","http-opts":{"path":["/"]},"server":"159.69.245.200","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-173","ws-opts":{"path":"/"},"server":"85.239.52.70","port":"21215","uuid":"8e941edd-a68d-450b-a4c7-20125c6911a0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-174","ws-opts":{"path":"/"},"server":"v3.583181.xyz","port":"80","uuid":"dac68179-449a-4f47-854c-30f0ce488fba","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-175_2","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-175","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-176","ws-opts":{"path":"/"},"server":"v12.583181.xyz","port":"80","uuid":"dac68179-449a-4f47-854c-30f0ce488fba","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-177","ws-opts":{"path":"/"},"server":"139.177.187.171","port":"49498","uuid":"664cd23e-2c6a-47f1-bef6-6706a75a9e54","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-178","ws-opts":{"path":"/media","headers":{"host":"server1.internetgateway.website"}},"server":"server1.internetgateway.website","port":"443","uuid":"33f27e84-cca3-423c-b4bc-1b189a6639b7","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -340,7 +269,7 @@ proxies:
   - {"type":"vmess","name":"TRX-216","ws-opts":{"path":"/sshocean","headers":{"host":"sg1-ctb.v2rayserv.com"}},"server":"sg1-ctb.v2rayserv.com","port":"80","uuid":"f4550b48-2631-4580-bcc8-bd925e5170f6","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-217","ws-opts":{"path":"/sshocean","headers":{"host":"au1.v2rayserv.com"}},"server":"au1.v2rayserv.com","port":"80","uuid":"8a7057d7-dc8e-4330-a491-1863928c4c4f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-218","ws-opts":{"path":"/sshocean","headers":{"host":"kh1.v2rayserv.com"}},"server":"kh1.v2rayserv.com","port":"80","uuid":"dc7aa767-9d20-46d7-800a-62e282205fc4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-219_2","ws-opts":{"path":"/fastssh/hsvshsg76tv/635a69172696d/","headers":{"host":"zoom.us"}},"server":"nl.v2-ray.com","port":"80","uuid":"6c5ee5f6-866a-4600-a154-63c853a13085","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-219","ws-opts":{"path":"/fastssh/hsvshsg76tv/635a69172696d/","headers":{"host":"zoom.us"}},"server":"nl.v2-ray.com","port":"80","uuid":"6c5ee5f6-866a-4600-a154-63c853a13085","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-220","ws-opts":{"path":"/telegram-id-privatevpns"},"server":"167.235.199.179","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-221","ws-opts":{"path":"/opentunnel?user=opentunnel.net-hshsh6y6v","headers":{"host":"idv-1.openv2ray.com"}},"server":"idv-1.openv2ray.com","port":"80","uuid":"a40d34c6-b77c-4648-9210-3e8d2f4226b5","alterId":"16","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-222","ws-opts":{"path":"/telegram-id-privatevpns"},"server":"95.179.147.140","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
@@ -410,7 +339,7 @@ proxies:
   - {"type":"vmess","name":"TRX-286","http-opts":{"path":["/"]},"server":"5.75.145.114","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-287","ws-opts":{"path":"/"},"server":"46.246.97.126","port":"18677","uuid":"183baba1-ff32-496a-a20d-7d3ea3933750","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-288","ws-opts":{"path":"/adad","headers":{"host":"uk.yuyan.online"}},"server":"uk.yuyan.online","port":"31000","uuid":"81b4380e-2563-4d05-bfa4-62fd64e145ee","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-289_2","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/","headers":{"host":"51.81.220.195"}},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-289","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/","headers":{"host":"51.81.220.195"}},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-290","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"o07.tgfaka.com"}},"server":"172.64.99.212","port":"8080","uuid":"0db0a479-8993-4e5b-a002-629e9e0b40e5","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-291","http-opts":{"path":["/"]},"server":"65.21.4.239","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-292","ws-opts":{"path":"/dgfdrg5GB5t5er"},"server":"37.48.102.95","port":"42066","uuid":"147e8924-4079-4125-be5f-15b3d0462c4d","alterId":"0","cipher":"auto","network":"ws"}
@@ -480,14 +409,14 @@ proxies:
   - {"type":"vmess","name":"TRX-356","http-opts":{"path":["/"]},"server":"5.75.168.124","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-357","http-opts":{"path":["/"]},"server":"5.75.142.23","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-358","http-opts":{"path":["/"]},"server":"88.198.143.23","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-359_2","http-opts":{"path":["/"]},"server":"49.12.239.252","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-360_2","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":80,"uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":0,"cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-359","http-opts":{"path":["/"]},"server":"49.12.239.252","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-360","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":80,"uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-361","ws-opts":{"path":"/"},"server":"165.232.178.238","port":8081,"uuid":"664b7630-3ca3-4463-e826-55bad6c53e97","alterId":0,"cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-362","http-opts":{"path":["/"]},"server":"8.210.34.212","port":51578,"uuid":"24cfd28c-a3d7-4028-89e8-b25fdcb28bac","alterId":0,"cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-363_2","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-363","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-364","ws-opts":{"path":"/vipen","headers":{"host":"khandevaneh.me"}},"server":"185.215.235.2","port":"443","uuid":"0a3b6d57-3721-4e56-af75-dd8c399a88b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-365","ws-opts":{"path":"/"},"server":"43.128.228.119","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-366_2","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-366","ws-opts":{"path":"/gdgHG55tht"},"server":"95.211.58.55","port":"16418","uuid":"9756c7d0-4a86-4210-fad1-13d5cbd86b03","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-367","ws-opts":{"path":"/vipen","headers":{"host":"khandevaneh.me"}},"server":"185.215.235.2","port":"443","uuid":"0a3b6d57-3721-4e56-af75-dd8c399a88b1","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-368","ws-opts":{"path":"/"},"server":"43.128.228.119","port":"42517","uuid":"b5b5209f-bcbd-4bac-b044-0d179698c62d","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-369","ws-opts":{"path":"/"},"server":"82.115.26.83","port":"25330","uuid":"88b89b81-6a75-4f6a-e4d4-2893abb04d5f","alterId":"0","cipher":"auto","network":"ws"}
@@ -496,57 +425,57 @@ proxies:
   - {"type":"vmess","name":"TRX-372","http-opts":{"path":["/"]},"server":"65.109.129.55","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-373","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"146.56.166.153","port":443,"uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-374","ws-opts":{"path":"/","headers":{"host":"34.72img.xyz"}},"server":"34.72img.xyz","port":443,"uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-375_2","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-376_2","http-opts":{"path":["/"]},"server":"72.5.32.63","port":"54915","uuid":"8030cb42-4b0e-46cb-d653-66bf65345c7f","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-375","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-376","http-opts":{"path":["/"]},"server":"72.5.32.63","port":"54915","uuid":"8030cb42-4b0e-46cb-d653-66bf65345c7f","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-377","server":"sg3.czs1000.com","port":"8883","uuid":"e5623cdf-0011-4536-b21e-f79e41dacce2","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"TRX-378_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"128.14.162.48","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-378","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"128.14.162.48","port":"443","uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-379","server":"kr-direct.node002.xyz","port":"5432","uuid":"531e6c4b-2f5f-363f-8556-3531b85422d5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
   - {"type":"vmess","name":"TRX-380","ws-opts":{"path":"/ray","headers":{"host":"lg30.cfcdn3.xyz"}},"server":"47.91.23.182","port":"443","uuid":"91646f9a-b4e9-4aca-bfe3-8892b3e58fe7","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-382","ws-opts":{"path":"/media","headers":{"host":"server1.internetgateway.website"}},"server":"server1.internetgateway.website","port":"443","uuid":"33f27e84-cca3-423c-b4bc-1b189a6639b7","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-383","ws-opts":{"path":"/@zanzendegiazadi13"},"server":"free-nika12-idtelegram-womenlifefreedom13.womenlifefreedom.xyz","port":"80","uuid":"6ce31760-3e9c-11ed-b878-0242ac120002","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-384_2","ws-opts":{"path":"/"},"server":"unvari.thatfreeservicewhicheveryoneuse.uk","port":"2095","uuid":"e346878b-0509-44fb-bd6c-680dbb6a8fe8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-384","ws-opts":{"path":"/"},"server":"unvari.thatfreeservicewhicheveryoneuse.uk","port":"2095","uuid":"e346878b-0509-44fb-bd6c-680dbb6a8fe8","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-385","ws-opts":{"path":"/"},"server":"165.22.61.208","port":"8081","uuid":"444bcaf2-8f9e-4d1e-a0c0-2414d75e4eb3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-386_2","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-386","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-387","http-opts":{"path":["/"]},"server":"8.210.34.212","port":"51578","uuid":"24cfd28c-a3d7-4028-89e8-b25fdcb28bac","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-388_2","http-opts":{"path":["/"]},"server":"8.218.63.184","port":"20113","uuid":"cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-388","http-opts":{"path":["/"]},"server":"8.218.63.184","port":"20113","uuid":"cdc72c7d-6ab8-4cb4-a0f7-18b0ec7bfbfa","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-390","ws-opts":{"path":"/","headers":{"host":"14.72img.xyz"}},"server":"14.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-391","http-opts":{"path":["/"]},"server":"65.108.51.225","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-392_2","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-393_2","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-392","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-393","http-opts":{"path":["/"]},"server":"146.70.158.36","port":"13966","uuid":"117cc4aa-aa2d-46d6-de87-a4ca8a9111b6","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-394","ws-opts":{"path":"/media","headers":{"host":"server1.internetgateway.website"}},"server":"server1.internetgateway.website","port":"443","uuid":"33f27e84-cca3-423c-b4bc-1b189a6639b7","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-395_2","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-396_2","http-opts":{"path":["/"]},"server":"8.210.203.189","port":"37309","uuid":"74cdcc28-a0bc-421f-bd15-c6a6e401b523","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-395","ws-opts":{"path":"/fastssh/amrozi87/6350416ec330b/","headers":{"host":"45.12.80.151"}},"server":"45.12.80.151","port":"80","uuid":"5fc32973-a15e-404c-b1f7-707187f7fd6e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-396","http-opts":{"path":["/"]},"server":"8.210.203.189","port":"37309","uuid":"74cdcc28-a0bc-421f-bd15-c6a6e401b523","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-397","ws-opts":{"path":"/jjyun","headers":{"host":"shs.jjyun.ml"}},"server":"uszzbak.jjyun.ml","port":"80","uuid":"84bc839b-1ad3-4918-89b9-92c1eb79971c","alterId":"10","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-398_2","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-398","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-399","ws-opts":{"path":"/","headers":{"host":"10.72img.xyz"}},"server":"10.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-400","ws-opts":{"path":"/vmess"},"server":"biznet.dnstore.tech","port":"443","uuid":"7fdd389e-d38c-40c4-ae98-cefd3d274e5f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-401","ws-opts":{"path":"/vmess"},"server":"biznet.dnstore.tech","port":"80","uuid":"7fdd389e-d38c-40c4-ae98-cefd3d274e5f","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-402","grpc-opts":{"grpc-service-name":"vmess-grpc"},"server":"biznet.dnstore.tech","port":"443","uuid":"7fdd389e-d38c-40c4-ae98-cefd3d274e5f","alterId":"0","cipher":"auto","network":"grpc","tls":true}
-  - {"type":"vmess","name":"TRX-403_2","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/"},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-404_2","ws-opts":{"path":"/aries","headers":{"host":"a.189.cn"}},"server":"sg.gcore.arc.pics","port":"2086","uuid":"8c067a46-155c-402a-a762-f42b40179438","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-405_2","http-opts":{"path":["/"]},"server":"47.242.61.125","port":"51784","uuid":"431c4c01-b596-4d12-a9e6-4f7f21fe82ba","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-406_2","ws-opts":{"path":"/"},"server":"52.40.115.237","port":"8081","uuid":"8204ce03-cee9-4328-cc6e-20f303d0aea6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-403","ws-opts":{"path":"/sshkit/Variu88/634dab7abadf1/"},"server":"51.81.220.195","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-404","ws-opts":{"path":"/aries","headers":{"host":"a.189.cn"}},"server":"sg.gcore.arc.pics","port":"2086","uuid":"8c067a46-155c-402a-a762-f42b40179438","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-405","http-opts":{"path":["/"]},"server":"47.242.61.125","port":"51784","uuid":"431c4c01-b596-4d12-a9e6-4f7f21fe82ba","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"vmess","name":"TRX-406","ws-opts":{"path":"/"},"server":"52.40.115.237","port":"8081","uuid":"8204ce03-cee9-4328-cc6e-20f303d0aea6","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-407","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-408","ws-opts":{"path":"/5f1ca41c","headers":{"host":"democratic-vacation-cargo-infectious.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"5f1ca41c-81b5-4b90-b87d-c30b4b47eb11","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-409","ws-opts":{"path":"/72f8cfcb","headers":{"host":"treasurer-bonds-bm-punk.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"72f8cfcb-dcbc-4ba9-b621-05e48ee7d588","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-410","ws-opts":{"path":"/c15f7903","headers":{"host":"san-moldova-commands-athens.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"c15f7903-d852-405b-bdfd-55a9b84ce433","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-411_2","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-412_2","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-411","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-412","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-413","ws-opts":{"path":"/76a884db","headers":{"host":"charging-looks-composed-labels.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"76a884db-04e1-40fb-ade5-c031a7f3461e","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-414_2","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-414","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-415","ws-opts":{"path":"/72f8cfcb","headers":{"host":"treasurer-bonds-bm-punk.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"72f8cfcb-dcbc-4ba9-b621-05e48ee7d588","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-416","ws-opts":{"path":"/c15f7903","headers":{"host":"san-moldova-commands-athens.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"c15f7903-d852-405b-bdfd-55a9b84ce433","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-417_2","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-418_2","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-417","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-418","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-419","ws-opts":{"path":"/76a884db","headers":{"host":"charging-looks-composed-labels.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"76a884db-04e1-40fb-ade5-c031a7f3461e","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-420_2","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-420","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-421","ws-opts":{"path":"/5f1ca41c","headers":{"host":"democratic-vacation-cargo-infectious.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"5f1ca41c-81b5-4b90-b87d-c30b4b47eb11","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-422","ws-opts":{"path":"/72f8cfcb","headers":{"host":"treasurer-bonds-bm-punk.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"72f8cfcb-dcbc-4ba9-b621-05e48ee7d588","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-423","ws-opts":{"path":"/c15f7903","headers":{"host":"san-moldova-commands-athens.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"c15f7903-d852-405b-bdfd-55a9b84ce433","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-424_2","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-425_2","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-424","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-425","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-426","ws-opts":{"path":"/76a884db","headers":{"host":"charging-looks-composed-labels.trycloudflare.com"}},"server":"1.1808.cf","port":443,"uuid":"76a884db-04e1-40fb-ade5-c031a7f3461e","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-427_2","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-427","ws-opts":{"path":"/vmess","headers":{"host":"v2.chigua.tk"}},"server":"1.1808.cf","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-428","ws-opts":{"path":"/72f8cfcb","headers":{"host":"treasurer-bonds-bm-punk.trycloudflare.com"}},"server":"cdn.chigua.tk","port":443,"uuid":"72f8cfcb-dcbc-4ba9-b621-05e48ee7d588","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-429","ws-opts":{"path":"/2cc54dbd","headers":{"host":"earth-identity-devel-pubmed.trycloudflare.com"}},"server":"cdn.chigua.tk","port":443,"uuid":"2cc54dbd-d448-4cc0-b61c-1d1ba6317307","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-430","ws-opts":{"path":"/bea4a9b4","headers":{"host":"reduction-accomplish-entities-surname.trycloudflare.com"}},"server":"cdn.chigua.tk","port":443,"uuid":"bea4a9b4-2ba4-4ed6-8247-7ea68d7f0112","alterId":0,"cipher":"aes-128-gcm","network":"ws","tls":true}
@@ -625,13 +554,13 @@ proxies:
   - {"type":"vmess","name":"TRX-503","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"13.114.214.6"}},"server":"13.114.214.6","port":"50236","uuid":"dd5637ac-b9f7-45a8-85ec-dd25ab5e7f35","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-504","http-opts":{"path":["/"]},"server":"5.75.142.23","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"TRX-505","http-opts":{"path":["/"]},"server":"5.75.142.23","port":"443","uuid":"6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"TRX-506_2","ws-opts":{"path":"/graphql"},"server":"78.46.213.201","port":"80","uuid":"d966c9da-9092-4c95-b7a9-a7e43aa4f93a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"TRX-506","ws-opts":{"path":"/graphql"},"server":"78.46.213.201","port":"80","uuid":"d966c9da-9092-4c95-b7a9-a7e43aa4f93a","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-507","ws-opts":{"path":"/"},"server":"45.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-508","ws-opts":{"path":"/","headers":{"host":"TEST.ROKAT.ML"}},"server":"TEST.ROKAT.ML","port":"8880","uuid":"4d3a52ca-f991-40ca-d011-8bec8ecdc771","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-509","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfen001.pics"}},"server":"us1.sanfen001.pics","port":"443","uuid":"4456b502-fe61-4be7-a969-aa37d924dbd2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-510","ws-opts":{"path":"/telegram-id-@VMESSORG","headers":{"host":"mail.yahoo.com"}},"server":"168.119.225.217","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"TRX-511_2","ws-opts":{"path":"/"},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TRX-512_2","ws-opts":{"path":"/"},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-511","ws-opts":{"path":"/"},"server":"43.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"TRX-512","ws-opts":{"path":"/"},"server":"29.72img.xyz","port":"443","uuid":"81d93f62-15a2-4994-adb9-0b5d906aac7e","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-513","ws-opts":{"path":"/telegram-id-@privatevpns","headers":{"host":"google.com"}},"server":"142.132.191.91","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"TRX-514","ws-opts":{"path":"/zh-cn","headers":{"host":"sg1.sanfen001.pics"}},"server":"sg1.sanfen001.pics","port":"443","uuid":"4456b502-fe61-4be7-a969-aa37d924dbd2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"TRX-515","ws-opts":{"path":"/telegram-id-@VMESSORG","headers":{"host":"mail.yahoo.com"}},"server":"168.119.225.217","port":"80","uuid":"2aac77de-b3e4-4017-845c-ca1380f2e8d0","alterId":"0","cipher":"auto","network":"ws"}
@@ -697,62 +626,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -760,25 +633,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -806,7 +664,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -822,8 +680,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -831,44 +689,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -876,19 +734,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -900,7 +758,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -981,7 +839,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -1025,7 +883,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -1095,7 +953,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -1165,14 +1023,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -1181,57 +1039,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -1310,13 +1168,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -1382,62 +1240,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -1445,25 +1247,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -1491,7 +1278,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -1507,8 +1294,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -1516,44 +1303,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -1561,19 +1348,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -1585,7 +1372,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -1666,7 +1453,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -1710,7 +1497,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -1780,7 +1567,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -1850,14 +1637,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -1866,57 +1653,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -1995,13 +1782,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -2067,62 +1854,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -2130,25 +1861,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -2176,7 +1892,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -2192,8 +1908,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -2201,44 +1917,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -2246,19 +1962,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -2270,7 +1986,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -2351,7 +2067,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -2395,7 +2111,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -2465,7 +2181,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -2535,14 +2251,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -2551,57 +2267,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -2680,13 +2396,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -2751,62 +2467,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -2814,25 +2474,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -2860,7 +2505,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -2876,8 +2521,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -2885,44 +2530,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -2930,19 +2575,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -2954,7 +2599,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -3035,7 +2680,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -3079,7 +2724,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -3149,7 +2794,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -3219,14 +2864,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -3235,57 +2880,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -3364,13 +3009,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -3435,62 +3080,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -3498,25 +3087,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -3544,7 +3118,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -3560,8 +3134,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -3569,44 +3143,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -3614,19 +3188,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -3638,7 +3212,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -3719,7 +3293,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -3763,7 +3337,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -3833,7 +3407,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -3903,14 +3477,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -3919,57 +3493,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -4048,13 +3622,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -4119,62 +3693,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -4182,25 +3700,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -4228,7 +3731,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -4244,8 +3747,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -4253,44 +3756,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -4298,19 +3801,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -4322,7 +3825,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -4403,7 +3906,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -4447,7 +3950,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -4517,7 +4020,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -4587,14 +4090,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -4603,57 +4106,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -4732,13 +4235,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
@@ -4820,62 +4323,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TRX-393_1
-      - TRX-392_1
-      - TRX-359_1
-      - TRX-25_1
-      - TRX-506_1
-      - TRX-37_1
-      - TRX-376_1
-      - TRX-396_1
-      - TRX-405_1
-      - TRX-395_1
-      - TRX-175_1
-      - TRX-388_1
-      - TRX-46_1
-      - TRX-386_1
-      - TRX-414_1
-      - TRX-289_1
-      - TRX-403_1
-      - TRX-48_1
-      - TRX-418_1
-      - TRX-427_1
-      - TRX-412_1
-      - TRX-31_1
-      - TRX-360_1
-      - TRX-425_1
-      - TRX-417_1
-      - TRX-398_1
-      - TRX-420_1
-      - TRX-219_1
-      - TRX-424_1
-      - TRX-61_1
-      - TRX-411_1
-      - TRX-378_1
-      - TRX-406_1
-      - TRX-58_1
-      - TRX-512_1
-      - TRX-40_1
-      - TRX-94_1
-      - TRX-39_1
-      - TRX-54_1
-      - TRX-80_1
-      - TRX-17_1
-      - TRX-79_1
-      - TRX-71_1
-      - TRX-72_1
-      - TRX-82_1
-      - TRX-511_1
-      - TRX-16_1
-      - TRX-62_1
-      - TRX-28_1
-      - TRX-366_1
-      - TRX-363_1
-      - TRX-384_1
-      - TRX-404_1
-      - TRX-45_1
-      - TRX-70_1
-      - TRX-375_1
       - _1
       - _2
       - SERVER+1_1
@@ -4883,25 +4330,10 @@ proxy-groups:
       - SERVER+1_3
       - SERVER+1_4
       - '@sa_trx+vip+16_1'
-      - '@sa_trx+vip+9_1'
-      - '@sa_trx+vip+8_1'
-      - '@sa_trx+vip7_1'
-      - '@sa_trx+vip+6_1'
+      - '@sa_trx+vip7'
+      - '@sa_trx+vip+6'
       - '@sa_trx+vip+5'
-      - '@sa_trx+vip+19'
       - '@sa_trx+vip+16_2'
-      - '@sa_trx+vip+9_2'
-      - '@sa_trx+vip+8_2'
-      - '@sa_trx+vip7_2'
-      - '@sa_trx+vip+6_2'
-      - '@sa_trx+20'
-      - '@sa_trx+19'
-      - '@sa_trx+17'
-      - '@sa_trx+14'
-      - '@sa_trx+13'
-      - '@sa_trx+8'
-      - '@sa_trx+5'
-      - '@sa_trx+1'
       - کانال:V2rayNG_Outline@_1
       - کانال:V2rayNG_Outline@_2
       - V2RAY_X_SERVER_#232
@@ -4929,7 +4361,7 @@ proxy-groups:
       - TRX-33_1
       - TRX-35_1
       - TRX-36_1
-      - TRX-37_2
+      - TRX-37_1
       - TRX-1
       - TRX-2
       - TRX-3
@@ -4945,8 +4377,8 @@ proxy-groups:
       - TRX-13
       - TRX-14
       - TRX-15
-      - TRX-16_2
-      - TRX-17_2
+      - TRX-16
+      - TRX-17
       - TRX-18
       - TRX-19
       - TRX-20_2
@@ -4954,44 +4386,44 @@ proxy-groups:
       - TRX-22
       - TRX-23_2
       - TRX-24
-      - TRX-25_2
+      - TRX-25
       - TRX-26_2
       - TRX-27_2
-      - TRX-28_2
+      - TRX-28
       - TRX-29
       - TRX-30_2
-      - TRX-31_2
+      - TRX-31
       - TRX-32_2
       - TRX-33_2
       - TRX-34
       - TRX-35_2
       - TRX-36_2
-      - TRX-37_3
+      - TRX-37_2
       - TRX-38
-      - TRX-39_2
-      - TRX-40_2
+      - TRX-39
+      - TRX-40
       - TRX-41
       - TRX-42
       - TRX-43
       - TRX-44
-      - TRX-45_2
-      - TRX-46_2
+      - TRX-45
+      - TRX-46
       - TRX-47
-      - TRX-48_2
+      - TRX-48
       - TRX-49
       - TRX-50
       - TRX-51
       - TRX-52
       - TRX-53
-      - TRX-54_2
+      - TRX-54
       - TRX-55
       - TRX-56
       - TRX-57
-      - TRX-58_2
+      - TRX-58
       - TRX-59
       - TRX-60
-      - TRX-61_2
-      - TRX-62_2
+      - TRX-61
+      - TRX-62
       - TRX-63
       - TRX-64
       - TRX-65
@@ -4999,19 +4431,19 @@ proxy-groups:
       - TRX-67
       - TRX-68
       - TRX-69
-      - TRX-70_2
-      - TRX-71_2
-      - TRX-72_2
+      - TRX-70
+      - TRX-71
+      - TRX-72
       - TRX-73
       - TRX-74
       - TRX-75
       - TRX-76
       - TRX-77
       - TRX-78
-      - TRX-79_2
-      - TRX-80_2
+      - TRX-79
+      - TRX-80
       - TRX-81
-      - TRX-82_2
+      - TRX-82
       - TRX-83
       - TRX-84
       - TRX-85
@@ -5023,7 +4455,7 @@ proxy-groups:
       - TRX-91
       - TRX-92
       - TRX-93
-      - TRX-94_2
+      - TRX-94
       - TRX-95
       - TRX-96
       - TRX-97
@@ -5104,7 +4536,7 @@ proxy-groups:
       - TRX-172
       - TRX-173
       - TRX-174
-      - TRX-175_2
+      - TRX-175
       - TRX-176
       - TRX-177
       - TRX-178
@@ -5148,7 +4580,7 @@ proxy-groups:
       - TRX-216
       - TRX-217
       - TRX-218
-      - TRX-219_2
+      - TRX-219
       - TRX-220
       - TRX-221
       - TRX-222
@@ -5218,7 +4650,7 @@ proxy-groups:
       - TRX-286
       - TRX-287
       - TRX-288
-      - TRX-289_2
+      - TRX-289
       - TRX-290
       - TRX-291
       - TRX-292
@@ -5288,14 +4720,14 @@ proxy-groups:
       - TRX-356
       - TRX-357
       - TRX-358
-      - TRX-359_2
-      - TRX-360_2
+      - TRX-359
+      - TRX-360
       - TRX-361
       - TRX-362
-      - TRX-363_2
+      - TRX-363
       - TRX-364
       - TRX-365
-      - TRX-366_2
+      - TRX-366
       - TRX-367
       - TRX-368
       - TRX-369
@@ -5304,57 +4736,57 @@ proxy-groups:
       - TRX-372
       - TRX-373
       - TRX-374
-      - TRX-375_2
-      - TRX-376_2
+      - TRX-375
+      - TRX-376
       - TRX-377
-      - TRX-378_2
+      - TRX-378
       - TRX-379
       - TRX-380
       - TRX-382
       - TRX-383
-      - TRX-384_2
+      - TRX-384
       - TRX-385
-      - TRX-386_2
+      - TRX-386
       - TRX-387
-      - TRX-388_2
+      - TRX-388
       - TRX-390
       - TRX-391
-      - TRX-392_2
-      - TRX-393_2
+      - TRX-392
+      - TRX-393
       - TRX-394
-      - TRX-395_2
-      - TRX-396_2
+      - TRX-395
+      - TRX-396
       - TRX-397
-      - TRX-398_2
+      - TRX-398
       - TRX-399
       - TRX-400
       - TRX-401
       - TRX-402
-      - TRX-403_2
-      - TRX-404_2
-      - TRX-405_2
-      - TRX-406_2
+      - TRX-403
+      - TRX-404
+      - TRX-405
+      - TRX-406
       - TRX-407
       - TRX-408
       - TRX-409
       - TRX-410
-      - TRX-411_2
-      - TRX-412_2
+      - TRX-411
+      - TRX-412
       - TRX-413
-      - TRX-414_2
+      - TRX-414
       - TRX-415
       - TRX-416
-      - TRX-417_2
-      - TRX-418_2
+      - TRX-417
+      - TRX-418
       - TRX-419
-      - TRX-420_2
+      - TRX-420
       - TRX-421
       - TRX-422
       - TRX-423
-      - TRX-424_2
-      - TRX-425_2
+      - TRX-424
+      - TRX-425
       - TRX-426
-      - TRX-427_2
+      - TRX-427
       - TRX-428
       - TRX-429
       - TRX-430
@@ -5433,13 +4865,13 @@ proxy-groups:
       - TRX-503
       - TRX-504
       - TRX-505
-      - TRX-506_2
+      - TRX-506
       - TRX-507
       - TRX-508
       - TRX-509
       - TRX-510
-      - TRX-511_2
-      - TRX-512_2
+      - TRX-511
+      - TRX-512
       - TRX-513
       - TRX-514
       - TRX-515
