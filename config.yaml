@@ -77,10 +77,6 @@ proxies:
   - {"type":"trojan","name":"trojan+2","server":"46.246.10.218","port":443,"password":"2721fcf7-5f9e-4391-95ce-3bcc0cc5efe1","udp":true,"skip-cert-verify":true,"sni":"arvancloud.ir.progt.cf"}
   - {"type":"trojan","name":"trojan+3","server":"152.228.228.215","port":443,"password":"8e254a9a-ff39-4a0c-b96e-a6cb9baaef67","udp":true,"skip-cert-verify":true,"sni":"shatel.ir.progt.cf"}
   - {"type":"trojan","name":"trojan+4","server":"ir2.archnet.cyou","port":4646,"password":"ce5441f1-51a8-45b9-8172-c7f04de6d5cb","udp":true,"skip-cert-verify":true,"sni":"hozix.xyz"}
-  - {"type":"vless","name":"vless+1","server":"78.47.125.137","port":48027,"uuid":"7ddd3265-e51f-40f2-936c-87068a7afbeb","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
-  - {"type":"vless","name":"vless+2","server":"193.70.85.110","port":80,"uuid":"5a23cd64-35cd-4a96-999e-91320f8b67ea","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"193.70.85.110","ws-opts":{"path":"/vless","headers":{"host":"193.70.85.110"}}}
-  - {"type":"vless","name":"vless+3","server":"157.90.157.183","port":38902,"uuid":"1518c83b-7013-4726-eb8c-adc922dfcfff","skip-cert-verify":true}
-  - {"type":"vless","name":"vless+4","server":"157.90.157.183","port":57545,"uuid":"5331d209-859d-4e0b-b233-27ca6ded447b","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -154,10 +150,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -231,10 +223,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -308,10 +296,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -384,10 +368,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -460,10 +440,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -536,10 +512,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -629,10 +601,6 @@ proxy-groups:
       - trojan+2
       - trojan+3
       - trojan+4
-      - vless+1
-      - vless+2
-      - vless+3
-      - vless+4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
